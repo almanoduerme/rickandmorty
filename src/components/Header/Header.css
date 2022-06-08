@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  min-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #474141;
+}
+
+.header .title {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #e0cece;
+}
+
+@media screen and (max-width: 576px) {
+  .header .title {
+    font-size: 2.4rem;
+  }
+}

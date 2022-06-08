@@ -1,0 +1,37 @@
+.character-page {
+  width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: dense;
+}
+
+.character-page .character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #474341;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.character-page .character-card .character-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.character-link {
+  margin-top: 1rem;
+  color: black;
+  border: 1px solid #474341;
+  padding: 0.3rem 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.character-link:hover {
+  background-color: #474341;
+  color: white;
+}
